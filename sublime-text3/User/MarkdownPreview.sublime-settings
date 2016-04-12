@@ -1,0 +1,43 @@
+{
+    /*
+        Enable highlighting. This enables codehilite extension if not already enabled.
+    */
+    "enable_highlight": true,
+
+    /*
+        Enabled parsers for the parser "select parser" command
+        Available parsers: markdown, github
+
+        When there are more than one parser in the list, Sublime will prompt
+        via the quick panel for which one to use.  If there is only one, it
+        will automatically run that parser.
+    */
+    "enabled_parsers": ["github"],
+
+    /*
+        Default mode for the github Markdown parser : markdown (documents) or gfm (comments)
+        see http://developer.github.com/v3/markdown/#render-an-arbitrary-markdown-document
+    */
+    "github_mode": "gfm",
+
+    "enabled_extensions": [
+        "extra",
+        "github",
+        "magiclink",
+        "tasklist",
+        "githubemoji",
+        "superfences",
+        "headeranchor",
+        "codehilite(guess_lang=False,pygments_style=github)"
+    ],
+
+     /*
+        Enables a post process to inject header ids to ensure hrefs to headers work
+    */
+    "github_inject_header_ids": true
+
+    /*
+        Uses an OAuth token when parsing markdown with GitHub API. To create one for Markdown Preview, see https://help.github.com/articles/creating-an-oauth-token-for-command-line-use.
+    */
+    // "github_oauth_token": "secret",
+}

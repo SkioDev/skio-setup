@@ -18,11 +18,16 @@ Conventions:
 
 ### SublimeText3
 #### Install SublimeText 3
-1. `$ brew tap homebrew/versions`
-2. `$ brew install Caskroom/versions/sublime-text3`
+- `$ brew tap homebrew/versions`
+- `$ brew install Caskroom/versions/sublime-text3`
+- Homebrew should automatically link the the SublimeText command line script
+- To verify: `$ subl` should open a new window
 
 #### Install SublimeText Package Control
-1. Open SublimeText3 and follow the instructions here: https://packagecontrol.io/installation
+- Open SublimeText3 and follow the instructions here: https://packagecontrol.io/installation
+
+
+
 
 ### Install Git
 1. `brew install git`

@@ -1,0 +1,38 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Babel",
+		"Better CoffeeScript",
+		"Color Highlighter",
+		"DashDoc",
+		"Dockerfile Syntax Highlighting",
+		"Emmet",
+		"GitGutter",
+		"Gitignore",
+		"GoSublime",
+		"Handlebars",
+		"Indent XML",
+		"jQuery",
+		"LESS",
+		"Markdown Extended",
+		"Markdown Preview",
+		"Oceanic Next Color Scheme",
+		"Package Control",
+		"PostgreSQL Syntax Highlighting",
+		"rsub",
+		"RuboCop",
+		"SCSS",
+		"Seti_UI",
+		"SideBarEnhancements",
+		"Solarized Color Scheme",
+		"SublimeCodeIntel",
+		"SublimeLinter",
+		"SublimeLinter-json",
+		"SublimeLinter-ruby",
+		"SublimeREPL"
+	]
+}
