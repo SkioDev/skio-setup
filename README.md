@@ -122,6 +122,7 @@ Java HotSpot(TM) 64-Bit Server VM (build 25.77-b03, mixed mode)
 - Create an alias for jruby: `$ rvm alias create j9k jruby-9.0.5.0`
 - To switch to jruby, you must type `rvm use j9k`
 - Install bundler and pry gems: `$ gem install bundler pry`
+- Speed up startup time: `$ echo "export JRUBY_OPTS=--dev" >> ~/.bashrc`
 
 ### Other Libraries & Prerequisites
 - `$ brew install ant maven openssl python wget`
