@@ -113,8 +113,8 @@ Java HotSpot(TM) 64-Bit Server VM (build 25.77-b03, mixed mode)
 - `$ \curl -sSL https://get.rvm.io | bash -s stable --auto-dotfiles`
 - `$ source ~/.rvm/scripts/rvm`
 
-#### Install Ruby (MRI) 2.2.3
-- `$ rvm install 2.2.3`
+#### Install Ruby (MRI) 2.3.1
+- `$ rvm install 2.3.1`
 - Install bundler and pry gems: `$ gem install bundler pry`
 
 #### Install JRuby 9.0.5.0
@@ -176,5 +176,11 @@ EOF
   "tagline" : "You Know, for Search"
 }
 ```
+
+### Windows VM
+
+#### Install VirtualBox
+- `$ brew cask install virtualbox`
+
 
 
