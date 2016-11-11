@@ -115,7 +115,10 @@ Java HotSpot(TM) 64-Bit Server VM (build 25.77-b03, mixed mode)
 
 #### Install Ruby (MRI) 2.3.1
 - `$ rvm install 2.3.1`
+- `$ rvm alias create mri 2.3.1`
+- `$ rvm alias create default 2.3.1`
 - Install bundler and pry gems: `$ gem install bundler pry`
+
 
 #### Install JRuby 9.1.6.0
 - `$ rvm install jruby-9.1.6.0`
@@ -179,8 +182,46 @@ EOF
 
 ### Windows VM
 
+**WORK IN PROGRESS**
+
 #### Install VirtualBox
 - `$ brew cask install virtualbox`
 
+#### Install 7Zip
+- `$ brew install p7zip`
+
+#### Import Windows Image
+- Go to https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/
+- Select **Microsoft Edge on Win 10 Stable** and **VirtualBox** and download
+- `$ cd ~/Downloads`
+- `$ 7za e [FILE NAME OF DOWNLOAD]`
+- `$ rm [FILE NAME OF DOWNLOAD]`
+- `$ VBoxManage import [FILE NAME OF IMAGE] --vsys 0 --vmname win_10_dev`
+- `$ rm [FILE NAME OF IMAGE]`
+- `$ VBoxManage modifyvm win_10_dev --clipboard bidirectional`
+
+#### Install Visual Studio
+- `$ VBoxManage startvm win_10_dev`
+- Open Edge and go to https://www.visualstudio.com/downloads/
+- Click the link to download Visual Studio Community and save the installer
+- Click run to run the installer
+- Install with default options
 
 
+
+## Front End Development Prerequisites
+
+### Install Google Chrome
+- `$ brew cask install google-chrome`
+
+### Install NVM
+- `$ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.1/install.sh | bash`
+
+### Install Node
+- `$ nvm install 6.9.1`
+- `$ nvm alias default 6.9.1`
+- `$ nvm use default`
+
+
+### Install Webpack
+- `$ npm install -g webpack webpack-dev-server`
